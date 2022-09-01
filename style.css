@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Gochi+Hand&family=Mansalva&display=swap');
+* {
+  box-sizing: border-box;
+}
+
+::selection {
+  background: #d79922;
+  color: #2c2c2c;
+}
+
+body {
+  font-family: "Mansalva";
+  height: 220vh;
+  background: #3F4E4F;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #DCD7C9;
+  font-size: 20px;
+}
+
+.centerimg {
+  margin: 10px auto 20px;
+  display: block;
+}
+
+h1 {
+  font-family: "Mansalva";
+  text-align: center;
+  font-size: 45px;
+  color: #A27B5C;
+}
+
+form {
+  background: #2C3639;
+  padding: 50px;
+  width: 550px;
+  max-width: calc(100% - 60px);
+  border-radius: 5px;
+}
+
+.form-element {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+}
+
+.form-element span {
+  margin-bottom: 10px;
+}
+
+input,
+textarea {
+  border: 1px solid #4e5165;
+  line-height: 2;
+  padding: 5px;
+  border-radius: 5px;
+  resize: none;
+  background: #DCD7C9;
+}
+
+.radio-buttons label {
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+form button {
+  font-family: "Mansalva";
+  width: 100%;
+  padding: 5px;
+  color: #2c2c2c;
+  background: #A27B5C;
+  border-radius: 5px;
+  border: none;
+  font-size: 40px;
+  cursor: pointer;
+}
